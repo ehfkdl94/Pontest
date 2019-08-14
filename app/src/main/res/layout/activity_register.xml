@@ -48,12 +48,11 @@
                     android:layout_gravity="center"
                     android:layout_marginRight="10dp"
                     android:background="@color/colorPrimary"
-                    android:drawableStart="=@drawable/ic_person_black_24dp"
-                    android:drawableLeft="@drawable/ic_person_black_24dp"
                     android:hint="아이디"
                     android:padding="10dp"
                     android:textColor="#ffffff"
-                    android:textColorHint="#ffffff" />
+                    android:textColorHint="#ffffff"
+                    />
                 
                 <Button
                     android:layout_width="80dp"
@@ -75,8 +74,6 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:background="@color/colorPrimary"
-                android:drawableStart="=@drawable/ic_lock_black_24dp"
-                android:drawableLeft="@drawable/ic_lock_black_24dp"
                 android:hint="비밀번호"
                 android:inputType="textPassword"
                 android:padding="10dp"
@@ -90,8 +87,6 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:background="@color/colorPrimary"
-                android:drawableStart="=@drawable/ic_mail_black_24dp"
-                android:drawableLeft="@drawable/ic_mail_black_24dp"
                 android:hint="이메일"
                 android:padding="10dp"
                 android:textColor="#ffffff"
@@ -104,8 +99,6 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:background="@color/colorPrimary"
-                android:drawableStart="=@drawable/ic_local_phone_black_24dp"
-                android:drawableLeft="@drawable/ic_local_phone_black_24dp"
                 android:hint="휴대폰번호"
                 android:padding="10dp"
                 android:textColor="#ffffff"
@@ -113,6 +106,7 @@
 
 
             <RadioGroup
+                android:id="@+id/genderGroup"
                 android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"

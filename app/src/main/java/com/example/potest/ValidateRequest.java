@@ -18,7 +18,8 @@ public class ValidateRequest extends StringRequest {
     }
 
     @Override
-    protected Map<String, String> getParams()  {
+    public Map<String, String> getParams()  {
+
         return parameters;
     }
 }
